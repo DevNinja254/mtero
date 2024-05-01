@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MTESH JEY</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" href="./images/images_styling/camera-icon.png" />
+    <script src="main.js" defer></script>
+  </head>
+  <body id="work">
+    <header>
+      <div>
+        <img
+          src="./images/images_styling/camera-icon (2).png"
+          alt="camera-icon"
+          width="50"
+          height="auto
+          "
+        />
+        <h1>MTESH JEY</h1>
+      </div>
+      <nav>
+        <ul id="show">
+          <li class="show"><a href="index.html">Home</a></li>
+          <li class="show"><a href="#">work</a></li>
+          <li class="show"><a href="contact.html">contact</a></li>
+          <li class="show"><a href="about.html">About</a></li>
+          <li class="show-button">
+            <img src="./images/images_styling/menu.svg" alt="" />
+          </li>
+        </ul>
+        <ul id="hide">
+          <li id="remove-menu">
+            <img src="./images/images_styling/multiply.png" alt="" />
+          </li>
+          <li class="hide"><a href="index.html">Home</a></li>
+          <li class="hide"><a href="#">work</a></li>
+          <li class="hide"><a href="contact.html">contact</a></li>
+          <li class="hide"><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <p id="intro">Featured Collections</p>
+      <hr />
+      <section id="collection">
+        <div class="colletion" id="food" onClick="fud()">
+          <p>Hot Dishes</p>
+        </div>
+
+        <div
+          class="colletion"
+          id="nature"
+          onclick="
+          natur()"
+        >
+          <p>nature</p>
+        </div>
+
+        <div class="colletion" id="adventure" onClick="adventur()">
+          <p>Adventure</p>
+        </div>
+
+        <div class="colletion" id="awards" onclick="award()">
+          <p>Awards</p>
+        </div>
+
+        <div class="colletion" id="happiness" onclick="happines()">
+          <p>Happiness</p>
+        </div>
+
+        <div class="colletion" id="latest-pic" onclick="latestPc()">
+          <p>Latest Gallery</p>
+        </div>
+      </section>
+
+      <hr />
+      <div id="morePhoto">
+        <p id="close-intro">
+          Discover Unlimited Photos By Mtesh Jey
+          <img
+            src="./images/images_page/icons8-clip-50.png"
+            alt="clip"
+            width="30"
+          />
+        </p>
+        <button id="butHome" onclick="btn()">Home</button>
+      </div>
+
+      <section id="photos"></section>
+      <img
+        src="./images/images_styling/top.png"
+        alt="top"
+        id="top"
+        onClick="topFunction()"
+      />
+    </main>
+  </body>
+</html>
